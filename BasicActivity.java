@@ -18,7 +18,7 @@ public class BasicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate: Inside this");
-        Log.d(TAG, "onCreate: keep theirs");
+        Log.d(TAG, "onCreate: keep both");
         setContentView(R.layout.activity_basic);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
